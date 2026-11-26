@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.uv/
+
+# Env
+.env
+.env.prod
+.env.test
+!.env.example
+
+# DB
+*.db
+*.sqlite3
+
+
+# Frontend
+node_modules/
+.next/
+.env.local
+tsconfig.tsbuildinfo
+.DS_Store
+
+# General
+.DS_Store
+*.log
+coverage/
+.coverage
+htmlcov/
+
+# OAuth client secrets (never commit)
+client_secret*.json
