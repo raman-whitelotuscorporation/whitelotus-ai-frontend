@@ -1,37 +1,24 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-.venv/
-venv/
-env/
-*.egg-info/
-.uv/
-
-# Env
-.env
-.env.prod
-.env.test
-!.env.example
-
-# DB
-*.db
-*.sqlite3
-
-
-# Frontend
+# Dependencies
 node_modules/
+
+# Next.js
 .next/
+out/
+
+# Build
+*.tsbuildinfo
+
+# Env / secrets
 .env.local
-tsconfig.tsbuildinfo
-.DS_Store
+.env.*.local
+client_secret*.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # General
 .DS_Store
-*.log
 coverage/
-.coverage
-htmlcov/
-
-# OAuth client secrets (never commit)
-client_secret*.json
